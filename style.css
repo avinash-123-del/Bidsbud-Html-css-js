@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800;900;1000&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -52,14 +54,17 @@
     margin: auto;
     justify-content: space-between;
     position: relative;
+    align-items: start;
 }
 .hero-left{
-    width: 45%;
+    width: 50%;
+}
+.hero-left>h2 {
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 30px;
 }
 
-.hero-left>h2 {
-    font-weight: bolder;
-}
 
 .button {
     background: #1492E6;
@@ -308,6 +313,10 @@ border: 1px solid #707070;
         margin: auto;
         text-align: start;
     }
+    .hero-left>h2 {
+        padding: 0px;
+        padding-top: 20px;
+    }
   
     .hero-left,
     .hero-right {
@@ -382,7 +391,9 @@ border: 1px solid #707070;
     .section_5_items {
       flex-direction: column;
       align-items: center;
+      gap: 20px;
     }
+
     
   }
   
@@ -401,12 +412,21 @@ border: 1px solid #707070;
         width:350px;
         font-size: 14px;
     }
+    .hero-left>h2 {
+    padding: 0px;
+    padding-top: 20px;
+}
+.svg1{
+    position: absolute;
+    z-index: 1;
+    bottom: -50px;
+}
     
     .svg2{
         position: absolute;
         z-index: -1;
         bottom: -1250px;
-        height: 1800px;
+        height: 1750px;
     }
     .svg3{
         position: absolute;
